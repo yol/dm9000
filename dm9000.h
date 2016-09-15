@@ -49,8 +49,6 @@
 #define DM9000_IOW_PIN  PC4
 #define DM9000_CMD_PORT PORTC
 #define DM9000_CMD_PIN  PC7
-#define DM9000_INT_PORT PINC
-#define DM9000_INT_PIN  PC6
 
 #define DM9000_RX_HEADER_SIZE 4
 #define DM9000_CRC_PAYLOAD_SIZE 4
@@ -224,6 +222,7 @@ uint8_t ethernet_read_register(DM9000_REG reg);
 void ethernet_write_register(DM9000_REG reg, uint8_t val);
 uint16_t ethernet_read_phy_register(DM9000_PHYREG reg);
 void ethernet_write_phy_register(DM9000_PHYREG reg, uint16_t val);
+
 uint8_t ethernet_is_packet_ready(void);
 void ethernet_set_mac(uint8_t m1, uint8_t m2, uint8_t m3, uint8_t m4, uint8_t m5, uint8_t m6);
 void ethernet_init_chip(void);
