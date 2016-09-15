@@ -72,4 +72,4 @@ Notes
   
 Links
 -----
-[http://www.davicom.tw/page1.aspx?no=143762 Davicom Ethernet product page with datasheets]
+[Davicom Ethernet product page with datasheets](http://www.davicom.tw/page1.aspx?no=143762)
